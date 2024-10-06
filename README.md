@@ -2,8 +2,8 @@
 Advanced Date Formatter is a lightweight JavaScript library designed for easy and flexible date formatting. It supports customizable patterns, including full month names, ordinal suffixes, ISO formatting, Unix timestamps, relative time, and more. Perfect for handling various date and time manipulation needs in your applications.
  
 Features
-Format dates in multiple customizable patterns
-Supports full month and weekday names
+1. Format dates in multiple customizable patterns
+2. Supports full month and weekday names
 Ordinal date formatting (e.g., 1st, 2nd, 3rd)
 Supports Unix timestamps (seconds and milliseconds)
 Relative time formatting (e.g., "2 days ago")

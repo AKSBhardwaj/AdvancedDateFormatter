@@ -1,4 +1,4 @@
-class AdvancedDateFormatter {
+class JSAdvancedDateFormatter {
     constructor(date = new Date()) {
         this.date = date instanceof Date ? date : new Date(date);
     }

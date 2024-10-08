@@ -1,5 +1,5 @@
-# AdvancedDateFormatter
-Advanced Date Formatter is a lightweight JavaScript library designed for easy and flexible date formatting. It supports customizable patterns, including full month names, ordinal suffixes, ISO formatting, Unix timestamps, relative time, and more. Perfect for handling various date and time manipulation needs in your applications.
+# JSAdvancedDateFormatter
+JS Advanced Date Formatter is a lightweight JavaScript utility designed for easy and flexible date formatting. It supports customizable patterns, including full month names, ordinal suffixes, ISO formatting, Unix timestamps, relative time, and more. Perfect for handling various date and time manipulation needs in your applications.
  
 Features
 1. Format dates in multiple customizable patterns
@@ -12,11 +12,11 @@ Features
 
 **Installation**
 you can include it directly in your project via a script tag:
- <script src="./advanced-date-formatter.js"></script>
+ <script src="./index.js"></script>
 
 **Basic Example**
 
-const formatter = new AdvancedDateFormatter(new Date());
+const formatter = new JSAdvancedDateFormatter(new Date());
 
 console.log(formatter.format('YYYY-MM-DD')); // Output: 2024-10-06
 
@@ -48,7 +48,7 @@ Supported Date Formats
 
 **Relative Time Example**
 
-const pastDate = new AdvancedDateFormatter('2024-09-30T12:00:00Z');
+const pastDate = new JSAdvancedDateFormatter('2024-09-30T12:00:00Z');
 
 console.log(pastDate.timeAgo()); // Output: "6 days ago"
 
@@ -56,7 +56,7 @@ console.log(pastDate.timeAgo()); // Output: "6 days ago"
 **API Reference**
 Constructor
 
-new AdvancedDateFormatter(date: Date | string | number)
+new JSAdvancedDateFormatter(date: Date | string | number)
 
 date: Optional. Can be a Date object, ISO string, or a timestamp. Defaults to the current date and time.
 
